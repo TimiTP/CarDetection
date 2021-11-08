@@ -52,7 +52,7 @@ if __name__ == "__main__":
     #cap.set(4, 1080)  # Videon resoluutio(korkeus)
     # cap.set(10,70) #Brightness
     while True:
-        img = cv2.imread('lena.png')
+        img = cv2.imread('testataan.png')
         ##success, img = cap.read()
         result, objectInfo = getObjects(img, objects=['person'])
         #print(objectInfo)
